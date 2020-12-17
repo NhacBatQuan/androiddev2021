@@ -17,23 +17,19 @@ public class ForecastFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_forecast, container, false);
-        view.setBackgroundColor(Color.parseColor("#5087CEEB"));
+        view.setBackgroundColor(Color.parseColor("#FFFFFF"));
         LinearLayout liLay = view.findViewById(R.id.lilay);
         liLay.setOrientation(LinearLayout.VERTICAL);
         for (int i = 0; i < 7; i++) {
             LinearLayout.LayoutParams layliparams = new LinearLayout.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, 100);
             layliparams.setMargins(40, 20, 40, 20);
-
             LinearLayout.LayoutParams teviParams = new LinearLayout.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT,2f);
-
             LinearLayout.LayoutParams imviParams = new LinearLayout.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT,2f);
-
             LinearLayout.LayoutParams texviParams = new LinearLayout.LayoutParams(
                     ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT,1f);
-
             LinearLayout layli = new LinearLayout(getContext());
             layli.setOrientation(LinearLayout.HORIZONTAL);
             liLay.addView(layli,layliparams);

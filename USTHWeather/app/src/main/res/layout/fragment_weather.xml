@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="340dp"
+                android:layout_height="300dp"
+                tools:context=".WeatherActivity"
+                android:id="@+id/your_layout_id">
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tuesday"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+    <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/nuppercase_hat"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Sunny\n 35C"/>
+</RelativeLayout>
