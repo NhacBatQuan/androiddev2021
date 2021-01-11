@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment;
 
 
 public class ForecastFragment extends Fragment {
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
