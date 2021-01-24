@@ -13,7 +13,6 @@ public class WeatherAndForecastFragment extends Fragment {
     private String city;
 
     public WeatherAndForecastFragment() {
-        // Required empty public constructor
     }
 
     public static WeatherAndForecastFragment newInstance(String city) {
